@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ChatButton from "i-talks"
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
           Learn React
         </a>
       </header>
+
+      {/* <div style={{ backgroundColor: "red", width: "100%", height: "50vh" }}>
+        <h1>Hello programmer</h1>
+      </div> */}
+
+      <ChatButton />
     </div>
   );
 }
