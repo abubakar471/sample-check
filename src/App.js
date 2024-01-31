@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-// import ChatButton from "i-talks"
-import ChatButton from "crx-thirty"
+import IqMates from "iq-mates"
+
 function App() {
   return (
     <div className="App">
@@ -19,11 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-
-      {/* <div style={{ backgroundColor: "red", width: "100%", height: "50vh" }}>
-        <h1>Hello programmer</h1>
-      </div> */}
-      <ChatButton />
+      <IqMates />
     </div>
   );
 }
