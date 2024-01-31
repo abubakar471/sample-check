@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import ChatButton from "i-talks"
-// import ChatButton from "crx-twenty"
+// import ChatButton from "i-talks"
+import ChatButton from "crx-thirty"
 function App() {
   return (
     <div className="App">
@@ -23,7 +23,6 @@ function App() {
       {/* <div style={{ backgroundColor: "red", width: "100%", height: "50vh" }}>
         <h1>Hello programmer</h1>
       </div> */}
-
       <ChatButton />
     </div>
   );
