@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import IqMates from "iq-mates"
+// import IqMates from "cms-six"
 
 function App() {
   return (
